@@ -1,4 +1,3 @@
-// import './App.css';
 import ProfileForm from "./components/profile";
 import Pano from "./components/feed";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -14,7 +13,7 @@ function App() {
                 </header>
 
                 <ProfileForm api={api}/>
-                <Pano api={api}/>
+                {/*<Pano api={api}/> //на тот случай, если понадобится запрашивать данные во фронтенде*/}
             </div>
         </div>
     );

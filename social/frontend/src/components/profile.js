@@ -12,7 +12,6 @@ const ProfileForm = ({api}) => {
     const [validated, setValidated] = useState(false);
     const [errors, setErrors] = useState({formPhone: '', formTin: ''});
     const [isError, setIsError] = useState(false);
-    const [statusCode, setStatusCode] = useState(350);
 
     const profile_create = async (data = {}) => {
         await fetch(api, {
